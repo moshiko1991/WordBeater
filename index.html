@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Word Beater</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="style.css" rel="stylesheet"/>
+		<script src="https://kit.fontawesome.com/e86be71b3f.js"></script>
+        
+	</head>
+
+
+	<body>
+
+<!-- head line -->
+		<div class="mainContainer">
+			<div class="headBar">
+				<h1 id="name">Moshiko Word Beater</h1>
+			</div>
+		</div>
+
+		<div class="timeContainer">
+			<p id="timeLine">
+				Type The Given Word 
+				<span id="seconds">5 </span>Second:
+			</p>
+		</div>
+
+		<div class="wordContainer">
+	    	<h2 id="correntWord"></h2>
+			<input id="userTap" type="text" placeholder="Type here...">
+		</div>
+		
+<!-- time and score -->
+		<div class="timeScoreContainer">
+			<h3>Time Left: 
+				<span id="timeDisplay">0</span>
+			</h3>
+
+			<h3 id="scoreDispaly">Score:
+				<span>0</span>
+			</h3>
+			
+		</div>
+
+		<button class="btn" onclick="easy()">Easy</button>
+		<button class="btn" onclick="medium()">Medium</button>
+		<button class="btn" onclick="hard()">Hard</button>
+
+		<div class="instructions">
+			<p>Type each word in the given amount
+			of seconds to score. To play again, just type the
+			current word. Your score will reset </p>
+			
+		</div>
+
+		<div>
+			<h4 id="massage"></h4>
+		</div>
+
+
+		<script src="main.js"></script>
+
+
+
+    
+
+	</body>
+</html>

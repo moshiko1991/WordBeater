@@ -1,0 +1,98 @@
+body{
+	margin: 0 auto ;
+	direction:ltr;
+	text-align: center;
+	font-family: "Apple Symbols";
+	background: url("https://wallpaper.wiki/wp-content/uploads/2017/06/Simple-backgrounds-green-HD.jpg");
+	background-size: 100% 200%;;
+	background-repeat: no-repeat;  
+}
+
+.mainContainer{
+	background-color:rgba(0, 102, 204, .4);
+	justify-content: space-around;
+	min-height: 8vh;
+	align-items: center;
+	display: flex;
+}
+
+#timeLine{
+	font-size: 1.6em;
+}
+
+#seconds{
+	font-size: 1.8em;
+	color: green;
+}
+
+#correntWord{
+	font-size: 1.6em;
+}
+
+#userTap{
+	font-size: 1.5em;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: rgba(236, 227, 227, 0.4);
+}
+
+#massage{
+	font-size: 2em;
+}
+
+.timeScoreContainer{
+	font-size: 2em;
+}
+
+.btn{
+	font-size: 1em;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+
+@media only screen and (min-width: 1200px){
+
+	.mainContainer{
+		background-color:rgba(0, 102, 204, .4);
+		justify-content: space-around;
+		min-height: 8vh;
+		align-items: center;
+		display: flex;
+	}
+
+	#timeLine{
+		font-size: 1.2em;
+	}
+	
+	#seconds{
+		font-size: 1.2em;
+		color: green;
+	}
+
+	#correntWord{
+		font-size: 2.8em;
+	}
+
+	#userTap{
+		font-size: 1.2em;
+		border: 2px solid black;
+		border-radius: 5px;
+		background-color: rgba(236, 227, 227, 0.4);
+	}
+
+	.timeScoreContainer{
+		font-size: 2.5em;
+	}
+
+	.btn{
+		font-size: 1.8em;
+		border: 4px solid black;
+		border-radius: 5px; 
+	}
+
+
+}
+
+
+
